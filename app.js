@@ -110,7 +110,7 @@ app.get('/userStat', (req, res) => {
     else res.send({ data: req.session.user })
 })
 app.get('/', (req, res) => {
-    res.send('fak')
+    res.send('dsfefergeftg;olik,umjnyhbgfvc,ikmujnhbgfv')
 })
 app.get('/posts/:id', (req, res) => {
     products.find({ postedBy: req.params.id * 1 }).sort({ productID: 1 }).exec((err, dt) => {
